@@ -1,0 +1,48 @@
+filters:
+  and:
+    - file.inFolder("ideas")
+properties:
+  status:
+    displayName: Status
+  conviction:
+    displayName: Conviction
+  like:
+    displayName: Like
+  born:
+    displayName: Born
+  last-signal:
+    displayName: Last signal
+views:
+  - type: table
+    name: Live
+    filters:
+      and:
+        - status != "dead"
+        - status != "shipped"
+    order:
+      - file.name
+      - status
+      - like
+      - conviction
+      - born
+      - last-signal
+    sort:
+      - property: like
+        direction: DESC
+  - type: table
+    name: Graveyard
+    filters:
+      and:
+        - status == "dead"
+    order:
+      - file.name
+      - born
+      - last-signal
+  - type: table
+    name: Shipped
+    filters:
+      and:
+        - status == "shipped"
+    order:
+      - file.name
+      - born
