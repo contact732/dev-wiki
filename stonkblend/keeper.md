@@ -122,3 +122,4 @@ processed → still in flight.
 | JUPITER_MIN_GAP_MS | 1100 (default) | spacing of Jupiter calls |
 | JUPITER_API_KEY | unset | portal key |
 | PRIORITY_MICROLAMPORTS | 10000 (default) | priority fee bid |
+| MAX_PRICE_IMPACT_PCT | 5 (default) | a leg whose Jupiter quote moves the price more than this is refused and carries (thin memes) |

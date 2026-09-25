@@ -88,7 +88,7 @@ Dozens of launches, thousands of trades, hundreds of holders.
 - Graduated caps still dashes → Jupiter answers only 50 ids a request;
   `64ba540` batches of fifty, deployed 03:03Z; ELONCOIN shows $47.8K.
 - Sweep dry run: 16 wallets, 2.01 SOL, awaiting the owner's word.
-- Meme baskets planned, not built (`11a299f`, local).
+- Meme baskets planned (`11a299f`), then built and pushed on "build then push": `37b9ee8` (assets table, hourly sync, registry, Memes tab, launch check, impact guard) and `9c72885` (the launch page request-time only: the first web deploy failed at prerender for want of a database address). Live 04:04Z with 235 memes offered.
 
 ## Numbers at the end of the night
 

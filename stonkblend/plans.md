@@ -5,9 +5,9 @@ tags: [stonkblend]
 
 # Plans
 
-## Meme coins in the basket (planned 2026-09-25, not built)
+## Meme coins in the basket (built and live 2026-09-25 04:04Z)
 
-Full plan: `docs/plans/2026-09-25-meme-baskets.md` in the product repo.
+Plan: `docs/plans/2026-09-25-meme-baskets.md`; shipped as commits `37b9ee8` and `9c72885`. What was built matches the plan below, except the Explore filter names memes under OTC's existing "Custom" kind rather than a new one.
 
 StonkFun's picker has a `custom` category, 416 launchable tokens today, its
 memes plus majors it files there (WBTC, WETH, RAY, JUP, TRUMP, WIF, Bonk,

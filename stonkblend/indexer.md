@@ -42,7 +42,7 @@ graduated coin (so its market cap can be quoted from Jupiter's price for the
 coin in its new pool). Jupiter answers only the first fifty ids of a
 request, so `jupiterPrices` asks in batches of fifty (found 2026-09-25: 57
 asked, 50 answered, the graduated coins last in line and unpriced).
-Then `refreshTracked` re-asks StonkFun about the desk's tracked coins.
+Then `refreshTracked` re-asks StonkFun about the desk's tracked coins, and once an hour `refreshAssets` reads StonkFun's `GET /pairs` and writes every launchable `custom` row (its memes) to `basket_assets` with Jupiter's price and liquidity; rows are never deleted, a pair StonkFun stops calling launchable is marked so.
 
 ## Watchdog and health
 
@@ -60,3 +60,4 @@ answers 503 when the last pass is older than `STALE_MS` (120 s).
 | FEE_LAG_MS | 3600000 (default) | fee lag alert |
 | PAGE_LIMIT | 1000 (default) | signatures per RPC page |
 | STALE_MS | 120000 (default) | health staleness |
+| ASSETS_MS | 3600000 (default) | how often StonkFun's pairs are read into `basket_assets` with Jupiter's liquidity |

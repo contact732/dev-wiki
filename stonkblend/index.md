@@ -42,5 +42,7 @@ secret is written here: this vault is public.
   `64ba540` plus one local plan commit.
 - Payout floor 50 STONK a holder; two coins in flight at once in both the
   keeper and the indexer; Jupiter paced to one call a second.
+- Memes can be paired since 04:04Z: a Memes tab in the picker, 235 of
+  StonkFun's 413 custom tokens over the $25k liquidity floor.
 - Still the owner's: a Jupiter API key (faster rounds), the Cloudflare
   dispute, and the word to sweep 2.01 SOL of parked top-ups back to ops.

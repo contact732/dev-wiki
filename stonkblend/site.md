@@ -32,6 +32,20 @@ and `/logo` (public, also on the old domain), `/api/mint/[mint]`,
 `/api/rpc` (server-side forward to the Helius RPC so the key never reaches
 the browser).
 
+## Memes in the basket (since 2026-09-25)
+
+The picker's fifth tab, Memes: StonkFun's `custom` pairs that Jupiter shows
+at least `MEME_LIQUIDITY_USD` (25,000) of liquidity for, when
+`MEMES_ENABLED=1` on `web` (235 of 413 on the day it shipped). The indexer
+writes the table hourly (`basket_assets`); the site reads it once a minute
+into the stock registry (`lib/basket-assets.ts` → `lib/stocks.ts`), which
+is why every page can name and picture a meme a coin holds even when it
+falls under the floor. A launch may hold an offered meme (`isOffered`).
+Pictures are StonkFun's logo URLs. The Explore filter lists memes as
+"Custom". The launch page is request-time only since this (it reads the
+database), which a build has no address for: the first deploy of it failed
+at prerender until `dynamic = 'force-dynamic'`.
+
 ## Market cap
 
 - On the curve (status 0) or migrating (status 1): the curve's marginal
