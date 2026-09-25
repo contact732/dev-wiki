@@ -21,7 +21,9 @@ statuses, this line) — never words.
 | [[ideas]] + [[ideas.base]] | the idea pipeline's rulebook and its board | hand |
 | `ideas/` | one note per idea: seed → testing → building → shipped / dead | hand |
 | [[design]] | how UI/UX gets made for anything that reaches building | hand + Claude |
+| [[references]] | sites worth stealing from, read before a build starts | hand |
 | `templates/` | the blank shapes: idea, coin, narrative, design-brief | hand |
+| [[stonkblend/index]] | the StonkBlend project wiki: how it works, what runs where, every knob, change and plan | Claude + hand |
 
 ## The loop
 
