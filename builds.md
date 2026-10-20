@@ -36,7 +36,7 @@ State checked 2026-10-08. Repos are folders under `~/Documents/`.
 | sentients | SENTIENTS (copy) | 10-07 | workers.dev | gated static copy; back end build started 10-08 | [[design/reskin/sentients]] |
 | holdapi | $API (copy of holdapi.lol) | 10-09 | none | front end identical, back end built + audited (267 tests), nothing deployed | [[design/reskin/holdapi]] |
 | lisa | L.I.S.A copy (Locomotive) | 10-10 | quiet-ember-7314.lingering-wood-d572.workers.dev | password gated preview, identical copy, own inbox | [[design/reskin/lisa]] |
-| clone | clone (piergorelli.com mirror, renamed) | 10-20 | none | local mirror of the Astro build renamed to clone, start.cmd on port 8790, nothing deployed | [[design/reskin/index]] |
+| clone | clone (piergorelli.com mirror, renamed) | 10-20 | pale-ridge-4193.lingering-wood-d572.workers.dev | open, identical assets, name text clone; deploy from edge/ | [[design/reskin/index]] |
 | elysium | Elysium copy (thebenezer) | 10-10 | misty-fern-5183.lingering-wood-d572.workers.dev | password gated preview, identical copy | [[design/reskin/elysium]] |
 
 Retros that exist: [[projects/pennypair/retro]], [[projects/ddosinu/retro]], [[projects/paidpair/retro]],
